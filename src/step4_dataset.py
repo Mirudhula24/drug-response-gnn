@@ -133,7 +133,7 @@ class DrugResponseDataset(Dataset):
     def get(self, idx: int) -> Data:
         """Build a PyG Data object for one (cell_line, drug) pair."""
         cell_line   = self.cell_lines[idx]
-        expr_values = self.protein_expr.loc[cell_line, self.protein_order].values
+        expr_values = self.protein_expr.loc[cell_line, self.protein_order].to_numpy().flatten()
 
         # Node feature matrix: [n_proteins, n_features]
         x = torch.zeros(self.n_proteins, self.n_features, dtype=torch.float)
