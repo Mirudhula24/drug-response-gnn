@@ -2,7 +2,7 @@
 
 > Predicting cancer drug response from protein–protein interaction networks using Graph Attention Networks — with conformal uncertainty intervals and SHAP explainability.
 
-**[🚀 Live Demo](https://drug-response-gnn-gt6qmamgopdappg9qmfe7.streamlit.app)** · **[GitHub](https://github.com/Mirudhula24/drug-response-gnn)** · **[GitHub](https://github.com/Mirudhula24/drug-response-gnn)**
+**[🚀 Live Demo](https://drug-response-gnn-gt6qmamgopdappg9qmfe7.streamlit.app)** · **[GitHub](https://github.com/Mirudhula24/drug-response-gnn)** 
 
 ---
 
