@@ -1,0 +1,5 @@
+drug,conformal_q,interval_width,test_coverage,target_coverage,n_covered,n_test,coverage_met
+Erlotinib,2.858394125233526,5.716788250467052,0.92,0.9,23,25,True
+Lapatinib,3.8063668790070926,7.612733758014185,1.0,0.9,25,25,True
+Sorafenib,2.3001818034959878,4.6003636069919756,0.96,0.9,24,25,True
+Paclitaxel,2.897071796914806,5.794143593829612,0.96,0.9,24,25,True
